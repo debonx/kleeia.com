@@ -1,0 +1,92 @@
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  position: relative;
+  padding: 10rem 0;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 3rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top-logo {
+  max-width: 100%;
+}
+.hero {
+  text-align: left;
+}
+.phone {
+  max-width: 100%;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header {
+  background-image: url('../../images/top-image.png');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.memories {
+  background-image: url('../../images/kleeia-home.png');
+  background-size: cover;
+  color: #fff;
+}
+.memories .overlay { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+}
+footer .credits {
+  border-top: 1px solid rgb(59, 59, 59);
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero-heading {
+    font-size: 2.6rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .hero-heading {
+    font-size: 3.0rem;
+  }
+}
